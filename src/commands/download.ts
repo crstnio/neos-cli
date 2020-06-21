@@ -1,6 +1,7 @@
 import {Command, flags} from '@oclif/command'
 import {exec, cd, mv, rm} from 'shelljs'
 
+// noinspection JSUnusedGlobalSymbols
 export default class Download extends Command {
   static description = 'download boilerplate for new projects'
 
